@@ -30,8 +30,8 @@ function AuthorDetail({ authors, books, match }) {
 
 const mapStateToProps = state => {
   return {
-    authors: state.rootAuthors.authors,
-    books: state.rootBooks.books
+    authors: state.authorsState.authors,
+    books: state.booksState.books
   };
 };
 

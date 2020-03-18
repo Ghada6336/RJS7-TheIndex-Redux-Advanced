@@ -39,7 +39,7 @@ const App = ({ loading }) => {
 
 const mapStateToProps = state => {
   return {
-    loading: state.rootAuthors.loading || state.rootBooks.loading
+    loading: state.authorState.loading || state.booksState.loading
   };
 };
 
