@@ -14,6 +14,16 @@
     "react-scripts": "^3.4.0",
     "redux": "^4.0.5"
   },
+  "devDependencies": {
+    "casual": "^1.6.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "history": "^4.10.1",
+    "jest-enzyme": "^7.1.2",
+    "redux-mock-store": "^1.5.4",
+    "waait": "^1.0.5"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
