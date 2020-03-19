@@ -10,9 +10,7 @@ import AuthorDetail from "./AuthorDetail";
 import BookList from "./BookList";
 
 
-import {compose} from 'redux'; //added
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const store = createStore(rootReducer, composeEnhancers());
+
 const instance = axios.create({
   baseURL: "https://the-index-api.herokuapp.com"
 });
