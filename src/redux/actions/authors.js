@@ -1,4 +1,4 @@
-import { SET_AUTHORS } from "./actionTypes";
+import { SET_AUTHORS } from "./actionType";
 
 import axios from "axios";
 

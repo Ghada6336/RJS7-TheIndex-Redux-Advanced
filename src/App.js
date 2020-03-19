@@ -9,6 +9,9 @@ import AuthorsList from "./AuthorsList";
 import AuthorDetail from "./AuthorDetail";
 import BookList from "./BookList";
 
+
+import {compose} from 'redux'; //added
+
 const instance = axios.create({
   baseURL: "https://the-index-api.herokuapp.com"
 });
