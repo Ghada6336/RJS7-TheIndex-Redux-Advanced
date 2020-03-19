@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-
+import { connect } from "react-redux";
 // Components
 import BookTable from "./BookTable";
 import Loading from "./Loading";
