@@ -1,4 +1,4 @@
-import { SET_BOOKS } from "../actions/actionType";
+import { SET_BOOKS } from "../actions/actionTypes";
 const initialState = {
   books:[],
   loading : true ,

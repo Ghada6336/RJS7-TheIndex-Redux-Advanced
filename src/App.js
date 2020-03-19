@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";//modified
-import axios from "axios";
+// import axios from "axios";
 
 // Components
 import Sidebar from "./Sidebar";
@@ -75,7 +75,7 @@ import { connect } from "react-redux";//added
 
 
 const App = ({ loading }) => {
-  let getView = () => {
+   const getView = () => {
     if (loading) {
       return <Loading />;
     } else {
@@ -90,14 +90,14 @@ const App = ({ loading }) => {
     }
   };
    //no need to render
-   
+
     return (
       <div id="app" className="container-fluid">
         <div className="row">
           <div className="col-2">
             <Sidebar />
           </div>
-          <div className="content col-10">{this.getView()}</div>
+          <div className="content col-10">{getView()}</div>
         </div>
       </div>
     );
